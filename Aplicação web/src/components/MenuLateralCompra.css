@@ -1,0 +1,36 @@
+.menu {
+    width: 23%;
+}
+.titulo-compra {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.description-menu {
+    display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.menu-item {
+    align-items: center;
+    display: flex;
+}
+.description-menu img {
+    width: 50px;
+    margin-right: 12px;
+
+    border-radius: 10px;
+    height: 50px;
+}
+.tam {
+    font-size: 20px;
+}
+.bg-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2b2b2b;
+    height: 50px;
+    margin-right: 12px;
+    width: 50px;
+    border-radius: 10px;
+}

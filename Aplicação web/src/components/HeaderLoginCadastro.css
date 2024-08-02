@@ -1,0 +1,34 @@
+.headerLoginCadastro {
+    background-color: #212121;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    top: 0;
+    font-family: "Ubuntu", sans-serif;
+
+}
+.container-col1 {
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+}
+.col-2-link {
+    width: 45%;
+}
+.btnVoltar {
+    background-color: #363636;
+    padding:10px;
+    text-decoration: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+}
+.btnVoltar i {
+    font-size: 20px;
+}
+.container-col1 h2{
+
+}

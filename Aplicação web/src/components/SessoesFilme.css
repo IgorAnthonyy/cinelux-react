@@ -1,0 +1,179 @@
+.sessao {
+    margin: 0 auto;
+    width: 80%;
+    flex-direction: column;
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+.sessao .btnHoraSessao {
+    border-radius: 2px;
+    display: block;
+    padding: 20px 20px;
+    border: none;
+    width: 310px;
+    font-size: 20px;
+    background-color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    color: #000;
+}
+.bx-chevron-down, .bx-chevron-right {
+  margin-left: 20px;
+}
+.destac {
+  color: #FFC727;
+}
+.sessao .horarios {
+    margin: 0 auto;
+    /* padding: 15px; */
+    background-color: #e7e7e7;
+    max-width: 310px;
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    max-height: 120px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    /* gap: 20px; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #000;
+}
+.sessao .horarios button {
+    display: block;
+    cursor: pointer;
+    padding: 10px 10px;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+    /* text-align: center; */
+    width: 100%;
+
+}
+.sessao .horarios::-webkit-scrollbar {
+    width: 10px; 
+  }
+  
+  .sessao .horarios::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+  
+  .sessao .horarios::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 6px;
+  }
+  
+  .sessao .tipos::-webkit-scrollbar-thumb:hover {
+    background-color: #555; 
+  }
+
+  .sessao .tipos::-webkit-scrollbar {
+    width: 10px; 
+  }
+  
+  .sessao .tipos::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+  
+  .sessao .tipos::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 6px;
+  }
+  
+  .sessao .tipos::-webkit-scrollbar-thumb:hover {
+    background-color: #555; 
+  }
+  .escolherTipo .btnTipoSessao {
+    border-radius: 2px;
+    display: block;
+    padding: 20px 20px;
+    border: none;
+    width: 150px;
+    font-size: 20px;
+    background-color: #505050;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .escolherTipo .tipos {
+    margin: 0 auto;
+    /* padding: 15px; */
+    background-color: #454545;
+    width: 150px;
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    max-height: 120px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    /* gap: 20px; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .escolherTipo .tipos button {
+    display: block;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    background-color: transparent;
+    /* text-align: center; */
+    width: 100%;
+  }
+  .box-sessao {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+    height: 300px;
+    overflow-x: hidden;
+  }
+  .sessao .box-sessao::-webkit-scrollbar-thumb:hover {
+    background-color: #555; 
+  }
+
+  .sessao .box-sessao::-webkit-scrollbar {
+    width: 10px; 
+  }
+  
+  .sessao .box-sessao::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+  
+  .sessao .box-sessao::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 6px;
+  }
+  
+  .sessao .box-sessao::-webkit-scrollbar-thumb:hover {
+    background-color: #555; 
+  }
+  .sessao-item {
+    text-align: center;
+    background-color: #363333;
+    padding: 20px 20px;
+    border-radius: 2px;
+    height: 100px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 16px;
+    text-decoration: none;
+    box-shadow: rgba(42, 42, 42, 0.2) 0px 7px 29px 0px;
+    transition: 0.2s;
+  }
+
+  .titulo-data {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .titulo-hora {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .sessao-item:hover {
+    background-color: #292929;
+  }

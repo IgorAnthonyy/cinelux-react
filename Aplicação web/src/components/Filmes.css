@@ -1,0 +1,72 @@
+.filmes {
+    width: 100%;
+}
+.container-filme {
+    font-family: "Ubuntu", sans-serif;
+    padding: 30px;
+}
+.title-container-filme {
+    font-size: 30px;
+}
+.col-btn-1 {
+    display: flex;
+    gap: 30px;
+    padding-top: 30px;
+    border-bottom: 1px solid #c9c9c9;
+    
+}
+
+.btn-filmes {
+    width: 200px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    
+}
+.filmes-container-list {
+    
+    margin-top: 30px;
+    display: flex;
+    gap: 3%;
+    flex-wrap: wrap;
+
+}
+
+
+.filme-item {
+    text-align: center;    
+    /* height: 230px; */
+    margin-bottom: 10px;    
+    width: 170px;
+    height: 290px;
+    overflow: hidden;
+}
+.filme .buttonFilme .imgFilme {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Adiciona a transição para o efeito de zoom */
+}
+.filme .buttonFilme:hover .imgFilme {
+    transform: scale(1.1); /* Define o nível de zoom */
+}
+.filme .buttonFilme {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+.filme .buttonFilme .imgFilme {
+    width: 170px;
+    height: 220px;
+    border-radius: 10px;
+}
+.nome-filme {
+    width: 170px;
+    margin-top: 10px;
+    word-wrap: break-word;
+    font-size: 18px;
+    color: #c9c9c9;
+}

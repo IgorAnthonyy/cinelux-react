@@ -1,0 +1,13 @@
+.header-filmes {
+    margin-bottom: 60px;
+    background-color: #212121;
+}
+.header-filmes .container-filmes {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+.header-filmes .container-filmes img {
+    width: 200px;
+    height: 80px;
+}

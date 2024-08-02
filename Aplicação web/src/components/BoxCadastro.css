@@ -1,0 +1,79 @@
+*{
+    font-family: "Ubuntu", sans-serif;
+
+}
+.imgPopcorn {
+    width: 400px;
+}
+.box-cadastro {
+    font-family: "Ubuntu", sans-serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px;
+    
+}
+.form-box {
+    width: 500px;
+}
+.form-box form {
+    display: flex;
+    flex-direction: column ;
+    gap: 10px;
+}
+.form-box form div input {
+    width: calc(100% - 32px);
+    
+    padding: 18px;
+    border-radius: 0;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    
+}
+.input-icon {
+    border-bottom:2px solid #636363;
+    display: flex;
+    align-items: center;
+}
+.box-flex {
+    display: flex;
+    gap: 35px;
+    width: 100%;
+    
+}
+
+.form-box form div input::placeholder {
+    color: #b1b1b1;
+}
+.form-box form label{
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+}
+.iptSenha, .iptTelefone {
+    width: 95% !important;
+}
+.btnSubmit {
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    /* border: 1px solid #b1b1b1;    */
+    background-color: #FFC727;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: #ffc52749 0px 7px 29px 0px;
+    transition: 0.5s;
+}
+.btnSubmit:hover {
+    background-color: #ffc5279b;
+
+}
+.alert-input {
+    width: 200px;
+    color: #ff2727;
+}

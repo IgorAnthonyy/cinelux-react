@@ -1,0 +1,117 @@
+.assentos-container {
+  text-align: center;
+  margin: 20px;
+  margin-top: 0;
+}
+
+.assentos-grid {
+  display: grid;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.assento, .grid-label {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid #ccc; */
+  border-radius: 20%;
+  background-color: transparent;
+  font-size: 18px;
+}
+.assento {
+  border: none;
+}
+.assento.disponivel {
+cursor: pointer;
+  
+  background-color: #ffffff; /* verde claro */
+}
+
+.assento.ocupado {
+  background-color: #5e5e5e; /* vermelho claro */
+  color: #fff;
+}
+
+.grid-label {
+  color: #c9c9c9;
+  font-size: 12px;
+  background-color: transparent;
+  border: none;
+}
+.legenda {
+  text-align: left;
+}
+.assento-disponivel {
+  width: 20px;
+  height: 20px;
+  border-radius: 20%;
+  background-color: #fff;
+}
+.col-assento {
+  
+  display: flex;
+  gap: 10px;
+}
+.legenda {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.assento-indisponivel {
+  width: 20px;
+  height: 20px;
+  border-radius: 20%;
+  background-color: #5e5e5e;
+
+}
+.assento-indisponivel {
+  width: 20px;
+  height: 20px;
+  border-radius: 20%;
+  background-color: #5e5e5e;
+
+}
+.vip {
+  border-radius: 100%;
+}
+.assento-selecionado {
+  width: 20px;
+  height: 20px;
+  border-radius: 20%;
+  background-color: #fff200;
+}
+.btnComprar {
+  position: fixed;
+  background-color: #1b1b1b;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  /* cursor: pointer; */
+  transition: 0.2s;
+}
+.btnComprar button {
+  height: 100%;
+  background-color: transparent;
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  width: 100%;
+}
+.btnComprar:hover{
+  background-color: #2e2e2e;
+}
+.swal2-title {
+  font-size: 25px;
+}
+
+.assento.selecionado {
+  background-color: #fff200;
+}
