@@ -14,5 +14,5 @@ CineLux é um sistema de reservas de ingressos de cinema desenvolvido utilizando
 <p>Compra de Ingressos: Processo de compra intuitivo e seguro.</p>
 
 <h3>Linguagens</h3>
-<p>Rect</p>
-<p>Java</p>
+<p>Rect - Responsavel: <a href='https://github.com/IgorAnthonyy'>Igor Anthony</a></p>
+<p>Java - Responsavel: <a href='https://github.com/davimendonca7'>Davi Mendonça</a></p>
